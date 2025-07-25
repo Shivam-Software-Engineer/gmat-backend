@@ -1,12 +1,12 @@
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.email",
-  port: 465,
-  secure: true, // true for 465, false for other ports
+   host: process.env.SMTP_HOST,
+  port: parseInt(process.env.SMTP_PORT),
+  secure: process.env.SMTP_SECURE === "true", // convert string to boolean
   auth: {
-    user: "maxiwise.fullstackdev@gmail.com",
-    pass: "wxmpethtbukzcijn",
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
   },
 });
 

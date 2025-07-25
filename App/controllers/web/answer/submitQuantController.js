@@ -2,6 +2,7 @@
 const { default: allquantQuestions } = require("../../../Questions/allquantQuestions");
 const { saveSubmission } = require("../../../utility/saveResult");
 
+
 const submitQuantAnswers = async (req, res) => {
   try {
     const { email, responses: userResponses } = req.body;
@@ -36,6 +37,7 @@ const submitQuantAnswers = async (req, res) => {
       };
     });
 
+    
     await saveSubmission({ email, field: "quantResponses", responses: evaluated });
 
     res.send({ status: 1, email, data: evaluated });

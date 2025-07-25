@@ -20,6 +20,7 @@ let allverbalQuestion= (req,res)=>{
   id: q.id,
   type: q.type,
   text: q.text,
+  passage:q.passage,
   options: q.options
 }));
 

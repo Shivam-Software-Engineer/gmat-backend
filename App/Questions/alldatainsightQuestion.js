@@ -1,4 +1,4 @@
-export const alldataInsightsQuestions = [
+ const alldataInsightsQuestions = [
   {
     id: 1,
     type: "GraphicsInterpretation",
@@ -11,7 +11,7 @@ export const alldataInsightsQuestions = [
         statement:
           "(i) It can be inferred from the information provided that the category of _____in the bar graph included books that are not classified the same in the circle graph.",
         options: ["Romance", "Fantasy", "History", "Mystery"],
-        answer: 2,
+        correct: 2,
         correctAnswer: "History",
         explanation:
          "From the given data, the 'History' category shows a mismatch: the bar graph has 9,000 books while the circle chart (10% of 72,000) should be 7,200. Since the bar has more than the circle, it means some books under 'History' in the bar graph are classified differently in the circle chart."
@@ -20,7 +20,7 @@ export const alldataInsightsQuestions = [
         statement:
           "(ii) It can be inferred from the information provided that the category of _____in the circle graph included books that are not classified the same in the bar graph.",
         options: ["Fantasy", "History", "Comedy", "Mystery"],
-        answer: 2,
+        correct: 2,
         correctAnswer: "History",
         explanation:
          "From the given data, the 'Comedy' category shows a mismatch: the circle graph shows 10,800 books (15% of 72,000) while the bar graph shows 10,000. Since the circle has more than the bar, it means some books classified as 'Comedy' in the circle chart were reclassified differently in the bar graph."
@@ -42,7 +42,7 @@ export const alldataInsightsQuestions = [
       column2: "Design",
     },
     options: [15, 20, 25, 30, 35],
-    answer: [4, 2], // Indices for 35 and 25
+    correct: [4, 2], // Indices for 35 and 25
     correctCombination: [35, 25],
     explanation: `
       <p><strong>Total employees:</strong> 80</p>
@@ -82,7 +82,7 @@ export const alldataInsightsQuestions = [
     "EACH statement ALONE is sufficient.",
     "Statements (1) and (2) TOGETHER are NOT sufficient."
   ],
-  answer: 3,
+  correct: 3,
   correctAnswer: "EACH statement ALONE is sufficient.",
   explanation: `
       <p>The number of the bronze coins = \\( n_b \\)</p>
@@ -160,7 +160,7 @@ export const alldataInsightsQuestions = [
       {
         statement: "At least 4 treadmil satisfy Requirement 1.",
         options: ["Yes", "No"],
-        answer: 0,
+        correct: 0,
         correctAnswer: "Yes",
         // explanation:
         //   "InfoTech's profit per employee is $180M / 8,700 = ~$20,690, which is higher than the other companies.",
@@ -168,14 +168,14 @@ export const alldataInsightsQuestions = [
       {
         statement: "At least 4 treadmil satisfy Requirement 2.",
         options: ["Yes", "No"],
-        answer: 0,
+        correct: 0,
         correctAnswer: "Yes",
         // explanation: "TechCorp was founded in 1995, which is after 1990.",
       },
       {
         statement: "Only.  treadmil satisfy both requirements.",
         options: ["Yes", "No"],
-        answer: 1,
+        correct: 1,
         correctAnswer: "No",
         explanation: `
     <p><strong>Requirements:</strong></p>
@@ -197,7 +197,7 @@ export const alldataInsightsQuestions = [
     </ul>
   `      },
     ],
-    answer: { 0: 0, 1: 0, 2: 1 },
+    correct: { 0: 0, 1: 0, 2: 1 },
   },
   {
   id: 5,
@@ -219,19 +219,19 @@ export const alldataInsightsQuestions = [
         {
           statement: "Database Constaints",
           options: ["Yes", "No"],
-          answer: 0,
+          correct: 0,
           correctAnswer: "Yes",
         },
         {
           statement: "Error Checking",
           options: ["Yes", "No"],
-          answer: 0,
+          correct: 0,
           correctAnswer: "Yes",
         },
         {
           statement: "Meaningful",
           options: ["Yes", "No"],
-          answer: 0,
+          correct: 0,
           correctAnswer: "Yes",
         },
       ],
@@ -264,19 +264,19 @@ export const alldataInsightsQuestions = [
         {
           statement: "A delivery tag is written as @!30+. This suggests a North region delivery on the 30th in the morning.",
           options: ["Yes", "No"],
-          answer: 1,
+          correct: 1,
           correctAnswer: "No",
         },
         {
           statement: "The tag &*02/ corresponds to a delivery in the West on the 2nd during the evening.",
           options: ["Yes", "No"],
-          answer: 0,
+          correct: 0,
           correctAnswer: "Yes",
         },
         {
           statement: "A tag #$5= appears in the system. It's meant to represent a South region delivery on the 5th in the afternoon.",
           options: ["Yes", "No"],
-          answer: 1,
+          correct: 1,
           correctAnswer: "No",
         },
       ],
@@ -304,7 +304,7 @@ export const alldataInsightsQuestions = [
     {
       statement: "3. How many different 5-character tags are possible under Proposal 3?",
       options: ["A) 124", "B) 248", "C) 496", "D) 512", "E) 620"],
-      answer: 2,
+      correct: 2,
       correctAnswer: "C) 496",
       explanation:
         "<ul>" +

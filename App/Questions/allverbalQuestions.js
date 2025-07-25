@@ -3,7 +3,7 @@ const verbalQuestions = [
     {
       id: 1,
       type: 'RC',
-      passage: `This passage refers to Questions 1 to 3.
+      passage: `This passage refers to Questions 1 to 3 :-
           The insistence upon the legal rather than the economic conception of property dates from the period when virtually all existing credit consisted of consumption credit rather than production credit and when indebtedness played a very small role in the social economy. In modern times, however, credit has become the very basis of business enterprise. Under these circumstances, the problem of indebtedness assumes a new significance. It was but natural, therefore, that the property tax, where it still existed, should take some account of this new condition and should endeavor to make allowance for debts. But experience soon showed that this attempt was fraught with great practical difficulties. As we have seen in the United States, the creation of fictitious debts became such a paying investment that most of the states that introduced the system were compelled again to abolish it. As a consequence, some states today deduct mortgage debts from real estate; others deduct general indebtedness from personal estate; a few permit deduction for indebtedness in general; while most of the states allow either for no deduction at all, or for deduction in only personal or real estate. Such a situation is bound to be unsatisfactory.`,
       text: " The primary purpose of the passage is to",
       options: [
@@ -13,13 +13,13 @@ const verbalQuestions = [
         "compare economies based on consumption credit with those based on production credit to highlight broader social changes.",
         "trace the historical development of mortgage-deduction provisions in several U.S. states."
       ],
-      answer: 1,
+      correct: 1,
       explanation: `The correct answer is Option B. The passage is mainly explaining the historical evolution and practical difficulties of incorporating debt deductions into property tax systems, particularly in the United States, due to the changing nature of credit.`
     },
     {
       id: 2,
       type: 'RC',
-      passage: `This passage refers to Questions 1 to 3.
+      passage: `This passage refers to Questions 1 to 3 :-
           The insistence upon the legal rather than the economic conception of property dates from the period when virtually all existing credit consisted of consumption credit rather than production credit and when indebtedness played a very small role in the social economy. In modern times, however, credit has become the very basis of business enterprise. Under these circumstances, the problem of indebtedness assumes a new significance. It was but natural, therefore, that the property tax, where it still existed, should take some account of this new condition and should endeavor to make allowance for debts. But experience soon showed that this attempt was fraught with great practical difficulties. As we have seen in the United States, the creation of fictitious debts became such a paying investment that most of the states that introduced the system were compelled again to abolish it. As a consequence, some states today deduct mortgage debts from real estate; others deduct general indebtedness from personal estate; a few permit deduction for indebtedness in general; while most of the states allow either for no deduction at all, or for deduction in only personal or real estate. Such a situation is bound to be unsatisfactory.`,
       text: "Which of the following statements is not supported by the passage?",
       options: [
@@ -29,13 +29,13 @@ const verbalQuestions = [
         "Prior to modern finance, businesses did not use credit to engage in production.",
         "The extent of credit usage in the modern economy has changed its social significance."
       ],
-      answer: 3,
+      correct: 3,
       explanation: "The correct answer is Option D. The author explicitly mentions that pre-modern economies made greater use of consumption credit rather than production credit. This does not mean that no credit is involved in production but it can be inferred that overall production centers were fewer. A farmer buying seeds using loans or promising a share of the harvest in exchange for the money, the seeds or field labor are all ancient examples of production credit. What was more common was consumption credit: providing grain in exchange for a promise of services all year long from a butcher, a tailor, a miller, a cowherd, etc. Such examples of credit were more numerous on the consumption side rather than the production side."
     },
     {
       id: 3,
       type: 'RC',
-      passage: `This passage refers to Questions 1 to 3.
+      passage: `This passage refers to Questions 1 to 3 :-
           The insistence upon the legal rather than the economic conception of property dates from the period when virtually all existing credit consisted of consumption credit rather than production credit and when indebtedness played a very small role in the social economy. In modern times, however, credit has become the very basis of business enterprise. Under these circumstances, the problem of indebtedness assumes a new significance. It was but natural, therefore, that the property tax, where it still existed, should take some account of this new condition and should endeavor to make allowance for debts. But experience soon showed that this attempt was fraught with great practical difficulties. As we have seen in the United States, the creation of fictitious debts became such a paying investment that most of the states that introduced the system were compelled again to abolish it. As a consequence, some states today deduct mortgage debts from real estate; others deduct general indebtedness from personal estate; a few permit deduction for indebtedness in general; while most of the states allow either for no deduction at all, or for deduction in only personal or real estate. Such a situation is bound to be unsatisfactory.`,
       text: "What does the author say is an unsatisfactory situation?",
       options: [
@@ -45,7 +45,7 @@ const verbalQuestions = [
         "That credit availability is the basis of production in the modern economy.",
         "That different states in the U.S. have conflicting rules about tax deductions for indebtedness."
       ],
-      answer: 4,
+      correct: 4,
       explanation: "The correct answer is Option E. The sentence about “unsatisfactory situation” directly follows the description of diverse rules across different states about debt-related deductions in the U.S. after first having mentioned that such deductions were often exploited by invention of fake debts. Given the overall passage’s historical focus, only the complicated situation in the U.S. is what warrants the label of “unsatisfactory situation.”"
     },
     {
@@ -60,7 +60,7 @@ const verbalQuestions = [
         "The first section introduces the doctrine of human free will and the second section opens the explanation for why Aristotle did not feel it is an idea that should be respected.",
         "The first section is a preamble to the second section that introduces why Aristotle thought that the doctrine of free will should be respected."
       ],
-      answer: 2,
+      correct: 2,
       explanation: `The correct answer is Option C. The first section opens the passage by introducing the topic of free will and then the second section introduces the idea that Aristotle felt it was too complex a doctrine to accept directly at face value without considering and clarifying some perspectives which had been put forth by older philosophers. Neither section says anything about whether Aristotle likes the topic or if he respects the topic. The word “respecting” is used synonymously with “regarding” or “about” here. Option A is close because the second section does in fact deal with Aristotle’s opinions, but when comparing A and C, the one that is more precise and exact is Option C.`
     },
     {
@@ -75,7 +75,7 @@ const verbalQuestions = [
         "Sixty million years ago there was a surge in volcanic activity in which the matter spewed from volcanoes formed huge iridium-rich dust clouds.",
         "The iridium deposit occurred at about the same time that many animal species became extinct and some scientists have theorized that mass dinosaur extinctions were caused by a meteorite collision."
       ],
-      answer: 3,
+      correct: 3,
       explanation: `Option D would counter the claim that a meteorite strike deposited the iridium found in that layer. By contrast, both options A and E are statements that support the meteorite theory, especially when viewed together. Options B and C are irrelevant.`
     },
     {
@@ -90,7 +90,7 @@ const verbalQuestions = [
         "The miller’s son would have been willing to sell a talking cat.",
         "Puss in Boots was a male cat that wouldn’t be able to have kittens that could also be sold for more money."
       ],
-      answer: 2,
+      correct: 2,
       explanation: `The correct answer is Option C. The passage explicitly mentions that there would have been a profit of threepence if the cat was sold. This would mean that the cat was bought for a penny as a blind kitten, which would be the original price to be subtracted from the selling price of fourpence. The rest of the options, about the miller’s son’s ability to start a wool business, his willingness to sell the cat, or his ability to breed the cat and sell kittens, are all inferences that have nothing to do with the given passage. If the cat was not bought as a kitten for a penny, the sentence in the passage about his profit would be rendered void. None of the other options being negated would have any impact on any of the information in the passage.`
     },
     {
@@ -106,7 +106,7 @@ const verbalQuestions = [
         "dapproximately 76% of citizens were functionally illiterate and heavily relied on accessibility tools like screen-readers and voice-to-text applications for everyday tasks. This makes it all the more important to ensure that companies do not exploit the reams of data such users generate.",
         "80% of citizens were in favor of government surveillance for flagging malicious behavior, like someone googling how to build a bomb. Such monitoring would also become more difficult if the bill is enacted."
       ],
-      answer: 1,
+      correct: 1,
       explanation: `The correct answer is Option B. It appropriately continues from the given passage and goes into details about the University’s survey that are related to the average Ironlandian user not being “as savvy” as the computer science professor in a way that has a direct relation to the bill being discussed. Option A is irrelevant to the passage. Option C is somewhat related but it begs the question why a country where the majority of citizens don’t have internet would focus on a data ownership law. Option D is also seemingly related but it does not directly connect as properly to the point about the savviness of the average citizen. Option E is a relevant public security issue but it is unclear how it connects to the rights of a user over data: the existence of private property does not imply that the government has no information about it; rather, the government can only enforce a citizen’s rights to private property if it knows what belongs to the person, and it can also examine or survey that property as long as it has valid reasons for doing so. Internet companies also have their own safeguards about potentially dangerous user behavior.`
     },
 ];

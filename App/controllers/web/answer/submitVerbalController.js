@@ -38,7 +38,7 @@ const submitVerbalAnswers = async (req, res) => {
 
     await saveSubmission({ email, field: "verbalResponses", responses: evaluated });
 
-    res.send({ status: 1, email, data: evaluated });
+    res.send({ status: 1,email, data: evaluated });
 
   } catch (err) {
     console.error("❌ Verbal Error:", err.message);

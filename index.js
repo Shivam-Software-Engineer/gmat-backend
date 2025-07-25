@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/website', website); // ✅ Mount /website
 
 // const PORT = 8000;
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 8001);
 
 
 //http://localhost:8000/
